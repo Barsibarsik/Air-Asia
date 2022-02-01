@@ -20,6 +20,11 @@ footer {
     vertical-align: middle;
     margin-right: 10px;
     margin-top: 33px;
+    opacity: 0.4;
+}
+
+.network__item:hover {
+    opacity: 2;
 }
 
 .network__item:last-child {

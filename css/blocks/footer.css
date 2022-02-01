@@ -1,0 +1,64 @@
+.line {
+    border-bottom: 1px solid #192F37;
+    padding-top: 21px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 120px;
+    position: relative;
+   
+}
+
+.network__list {
+    display: inline-block;
+    margin-left: 747px;
+}
+
+.network__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: 33px;
+}
+
+.network__item:last-child {
+    margin-right: 0;
+}
+
+.network__item:first-child {
+    margin-left: 0;
+}
+
+.network__symbol:last-child {
+    margin-right: 0;
+}
+
+.network__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.contacts__footer {
+    bottom: 53px;
+}
+
+.contacts__info {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 18px;
+    line-height: 20px;
+}
+
+.contacts__phone-footer {
+    display: inline-block;
+    bottom: 30px;
+}
+
+
+
+
+
+
+

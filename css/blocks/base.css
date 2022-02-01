@@ -1,0 +1,136 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.42;
+    letter-spacing: normal;
+    background: #001822;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper--main {
+    background: url("/img/1.png") center top no-repeat,
+        url("/img/2.png") right bottom no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1215px;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    padding: 0;
+}
+
+.button {
+    background: red;
+    border-radius: 35px;
+    padding: 19px 44px;
+    text-transform: uppercase;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    transition: 0.3s all;
+    display: inline-block;
+    max-width: 168px;
+    max-height: 55px;
+    display: inline-block;
+}
+
+.button:hover {
+    color: white;
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.button--light {
+    background: transparent;
+    color: red;
+    border: 1px solid;
+}
+
+.button--light:hover {
+    background: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.button--light {
+    background: transparent;
+    color: red;
+    border: 1px solid;
+    padding: 20px 33px;
+}
+
+.button--light:hover {
+    background: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: white;
+    margin-bottom: 55px;
+}
+
+.title--fire {
+    position: relative;
+    letter-spacing: 1.5px;
+}
+
+.title--fire:after {
+    content: "";
+    background: url(/img/flame.png) no-repeat;
+    margin-left: 10px;
+    width: 21px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.title--news {
+    letter-spacing: 1.3px;
+}
+
+.title--dark {
+    color: black;
+    margin-bottom: 45px;
+
+}

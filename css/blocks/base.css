@@ -11,8 +11,8 @@ body {
 }
 
 .wrapper--main {
-    background: url("../img/1.png") center top no-repeat,
-                url("./img/2.png") right bottom no-repeat;
+    background: url("/Air-Asia/img/1.png") center top no-repeat,
+                url("/img/2.png") right bottom no-repeat;
     background-size: 100%;
 }
 

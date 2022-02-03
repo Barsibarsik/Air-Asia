@@ -28,7 +28,7 @@ body {
 
 .mainpart {
     background: url("../../img/1.png") center top no-repeat, url("../../img/2.png") center bottom no-repeat;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .container {

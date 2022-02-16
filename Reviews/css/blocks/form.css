@@ -20,13 +20,17 @@
     flex: 1;
     margin-right: 30px;
     border-radius: 5px;
-    border-color: transparent;
+    border: 1px solid transparent;
     background: white;
     padding: 20px 30px;
     color: #1A1B1E;
     font-size: 18px;
     line-height: 21.09px;
     font-family: 'OpenSans', Helvetica, sans-serif;
+}
+
+.form__input:focus {
+    border: 1px solid red;
 }
 
 .form__input::placeholder {

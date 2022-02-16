@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 69.5px;
+    color: white;
+    margin-bottom: 84px;
+}
+
+.pagination--light {
+    color: black;
+}
+
+.pagination__display,
+.pagination__list {
+    display: flex;
+    align-items: center;
+}
+
+.pagination__display {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 26px;
+}
+
+.pagination__link {
+    font-size: 16px;
+    line-height: 21px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    transition: .5s all;
+}
+
+.pagination__link:hover {
+    background: red;
+    color: white;
+}

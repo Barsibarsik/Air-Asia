@@ -87,7 +87,7 @@
     transition: opacity 1s;
 }
 
-.contacts__dropdown-title:hover ~ .dropdown__menu {
+.contacts__workhours:hover .dropdown__menu {
     opacity: 1;
 }
 

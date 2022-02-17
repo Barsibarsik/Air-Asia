@@ -27,6 +27,7 @@
     font-size: 18px;
     line-height: 21.09px;
     font-family: 'OpenSans', Helvetica, sans-serif;
+    outline: none;
 }
 
 .form__input:focus {
